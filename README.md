@@ -4,8 +4,7 @@ A Python-based visualization tool that generates the Fibonacci sequence and draw
 
 ## Features
 
-* **Interactive Scaling:** Features a UI slider to dynamically build the spiral from $n=1$ up to $n=70$.
-* **Massive Number Handling:** Capable of calculating and displaying massive sequence values (e.g., $F_{70} = 190,392,490,709,135$) without breaking the visualization.
+* **Interactive Scaling:** Features a UI slider to dynamically build the spiral from $n=1$ up to $n=80$.
 * **Dynamic Viewport:** Automatically calculates the tightest bounding box to keep the shape perfectly centered and framed, regardless of how large the spiral grows.
 
 ## The Math
@@ -22,4 +21,4 @@ You will need Python 3 and the `matplotlib` library installed on your system.
 
 ## Note
 
-The spiral will get tighter and tighter as you go higher in the Fibonacci sequence, thus becoming harder to visualize. I recommend using the zooming tool to zoom in on the central spiral to watch it closely. 
+The spiral will get tighter and tighter as you go higher in the Fibonacci sequence, thus becoming harder to visualize. I recommend using the zooming tool to zoom in on the central spiral to watch it closely. This code generates upto 80th Fibonacci number and its corresponding geometrical visualization, but this value can be increased by setting the desired value of the variable 'MAX_N'.
